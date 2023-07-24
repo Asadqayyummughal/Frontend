@@ -1,1 +1,105 @@
 /* You can add global styles to this file, and also import other style files */
+@import 'ngx-owl-carousel-o/lib/styles/scss/owl.carousel';
+@import 'ngx-owl-carousel-o/lib/styles/scss/owl.theme.default';
+@font-face {
+    font-family: poppins-regualr;
+    src: url('./assets/fonts/Poppins-Regular.ttf');
+}
+@font-face {
+    font-family: poppins-black;
+    src: url('./assets/fonts/Poppins-Black.ttf');
+}
+@font-face {
+    font-family: poppins-black-italic;
+    src: url('./assets/fonts/Poppins-BlackItalic.ttf');
+}
+@font-face {
+    font-family: poppins-bold;
+    src: url('./assets/fonts/Poppins-Bold.ttf');
+}
+@font-face {
+    font-family: poppins-semibold;
+    src: url('./assets/fonts/Poppins-SemiBold.ttf');
+}
+@font-face {
+    font-family: poppins-semibold-italic;
+    src: url('./assets/fonts/Poppins-SemiBoldItalic.ttf');
+}
+@font-face {
+    font-family: poppins-black-thin;
+    src: url('./assets/fonts/Poppins-Thin.ttf');
+}
+@font-face {
+    font-family: poppins-black-italic;
+    src: url('./assets/fonts/Poppins-BlackItalic.ttf');
+}
+@font-face {
+    font-family: poppins-medium;
+    src: url('./assets/fonts/Poppins-Medium.ttf');
+}
+@font-face {
+    font-family: poppins-medium-italic;
+    src: url('./assets/fonts/Poppins-MediumItalic.ttf');
+}
+    
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+
+.highlight-txt{
+    color:#ff7835;
+    
+}
+.common-btn{
+    border: none;
+    font-size: 14px;
+    font-family: poppins-semibold;
+    border-radius: 0.65rem !important;
+    padding: 1.4em 2.5em;
+    gap: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #ff7835;
+    background-color: #f9fafb;
+    a{
+        color: black;
+    }
+    
+    &:hover {
+        background-color: #ff7835;
+        a{
+            color: white;
+        }
+        i{
+            color: white;
+        }
+    
+    }
+    
+}
+.btn-rapper{
+    display: flex;
+    gap:25px;
+    box-sizing: border-box;
+
+}
+.anchor-dark{
+    text-decoration: none;
+    color: white;
+    
+}
+.anchor-light{
+    text-decoration: none;
+    color: black;
+
+}
+// .active{
+//     border: 2px solid #99bf3d !important;
+// }
+
+
